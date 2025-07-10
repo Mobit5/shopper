@@ -12,7 +12,7 @@ const LoginSignup = () => {
 
   const login = async () => {
     let dataObj;
-    await fetch('http://localhost:4000/login', {
+    await fetch('https://shopper-rnec.onrender.com', {
       method: 'POST',
       headers: {
         Accept:'application/form-data',
